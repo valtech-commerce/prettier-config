@@ -34,11 +34,13 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "4.2.0"
+    "@absolunet/tester": "4.2.0",
+    "prettier": "2.3.2"
   },
   "dependencies": {
-    "@absolunet/fss": "^1.7.0",
-    "pkg-dir": "^5.0.0",
-    "prettier": "2.3.2"
+    "@absolunet/prettier-loader": "0.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.3.2"
   }
 }

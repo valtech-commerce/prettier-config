@@ -7,7 +7,7 @@
 
 > Prettier config - PWA Studio rules
 
-Opinionated Prettier PWA Studio [shareable configs](https://prettier.io/docs/en/configuration.html#sharing-configurations).
+Opinionated Prettier [PWA Studio](https://pwastudio.io) [shareable configs](https://prettier.io/docs/en/configuration.html#sharing-configurations).
 
 Extends [@absolunet/prettier-config-core](https://github.com/absolunet/prettier-config)
 

@@ -37,8 +37,7 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/fss": "^1.7.0",
-    "@absolunet/prettier-config-core": "^0.1.0",
-    "pkg-dir": "^5.0.0"
+    "@absolunet/prettier-config-core": "0.1.0",
+    "@absolunet/prettier-loader": "0.1.0"
   }
 }
