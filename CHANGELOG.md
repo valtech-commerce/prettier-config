@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 9999-01-01
 ### Added
+- Add `loader` package
 - Add `core` config
 - Add `pwastudio` config
 - Add `spire` config

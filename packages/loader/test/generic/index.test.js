@@ -1,8 +1,6 @@
 //--------------------------------------------------------
-//-- Prettier config
+//-- Tester
 //--------------------------------------------------------
-import loader from '@absolunet/prettier-loader';
+import { tester } from '@absolunet/tester';
 
-module.exports = loader({
-	root: __dirname
-});
+tester.genericRepositoryTests();

@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/prettier-config-spire",
+  "name": "@absolunet/prettier-loader",
   "version": "0.1.0",
-  "description": "Prettier config - Spire rules",
+  "description": "Prettier YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
   "author": {
@@ -11,7 +11,8 @@
   "keywords": [
     "prettier",
     "prettierconfig",
-    "prettier-config"
+    "prettier-config",
+    "yaml"
   ],
   "license": "MIT",
   "repository": {
@@ -37,7 +38,9 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/prettier-config-core": "0.1.0",
-    "@absolunet/prettier-loader": "0.1.0"
+    "@absolunet/fss": "^1.7.0",
+    "@absolunet/joi": "^0.3.0",
+    "deepmerge": "^4.2.2",
+    "pkg-dir": "^5.0.0"
   }
 }
