@@ -11,6 +11,8 @@
 | **[@absolunet/prettier-config-core](packages/core)** | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-core.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-core) | **Core rules** | [docs](https://documentation.absolunet.com/prettier-config/core) |
 | [@absolunet/prettier-config-pwastudio](packages/pwastudio) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-pwastudio.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-pwastudio) | [PWA Studio](https://github.com/magento/pwa-studio) rules | [docs](https://documentation.absolunet.com/prettier-config/pwastudio) |
 | [@absolunet/prettier-config-spire](packages/spire) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-spire.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-spire) | [Spire](https://www.episerver.com/products/b2b-commerce-cloud) rules | [docs](https://documentation.absolunet.com/prettier-config/spire) |
+|-|-|-|-|
+| [@absolunet/prettier-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-loader.svg)](https://www.npmjs.com/package/@absolunet/prettier-loader) | Config loader | [docs](https://documentation.absolunet.com/prettier-config/loader) |
 
 ### Dependency tree
 ```
