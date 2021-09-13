@@ -1,9 +1,11 @@
 # @absolunet/prettier-config-spire
 
-[![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-spire.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-spire)
-[![npm dependencies](https://david-dm.org/absolunet/prettier-config/status.svg?path=packages/spire)](https://david-dm.org/absolunet/prettier-config?path=packages/spire)
-[![npms](https://badges.npms.io/%40absolunet%2Fprettier-config-spire.svg)](https://npms.io/search?q=%40absolunet%2Fprettier-config-spire)
-[![tests](https://github.com/absolunet/prettier-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/prettier-config/actions?query=workflow%3Atests+branch%3Amaster)
+[![npm][npm-badge]][npm-url]
+[![npm dependencies][dependencies-badge]][dependencies-url]
+[![Tests][tests-badge]][tests-url]
+[![npms][npms-badge]][npms-url]
+[![License: MIT][license-badge]][license-url]
+
 
 > Prettier config - Spire rules
 
@@ -39,11 +41,20 @@ module.exports = {
 View [documentation](https://documentation.absolunet.com/prettier-config/spire)
 
 
-
-
-
-
-<br><br>
-
 ## License
-MIT © [Absolunet](https://absolunet.com)
+[MIT](LICENSE) © [Absolunet](https://absolunet.com)
+
+
+
+
+[npm-badge]:          https://img.shields.io/npm/v/@absolunet/prettier-config-spire?style=flat-square
+[dependencies-badge]: https://img.shields.io/david/absolunet/prettier-config?path=packages/spire&style=flat-square
+[tests-badge]:        https://img.shields.io/github/workflow/status/absolunet/prettier-config/tests/production?label=tests&style=flat-square
+[npms-badge]:         https://badges.npms.io/%40absolunet%2Fprettier-config-spire.svg?style=flat-square
+[license-badge]:      https://img.shields.io/badge/license-MIT-green?style=flat-square
+
+[npm-url]:          https://www.npmjs.com/package/@absolunet/prettier-config-spire
+[dependencies-url]: https://david-dm.org/absolunet/prettier-config?path=packages/spire
+[tests-url]:        https://github.com/absolunet/prettier-config/actions?query=workflow%3Atests+branch%3Aproduction
+[npms-url]:         https://npms.io/search?q=%40absolunet%2Fprettier-config-spire
+[license-url]:      https://opensource.org/licenses/MIT

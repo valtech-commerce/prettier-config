@@ -1,20 +1,18 @@
 //--------------------------------------------------------
 //-- Loader - Given-When-Then
 //--------------------------------------------------------
-import path     from 'path';
-import * as gwt from '../../../../test/base.gwt';
+import path from "path";
+import * as gwt from "../../../../test/base.gwt";
 
 const given = { ...gwt.given };
-const when  = { ...gwt.when };
-const then  = { ...gwt.then };
-
+const when = { ...gwt.when };
+const then = { ...gwt.then };
 
 let myFunction;
 let root;
 let filename;
 let config;
 let parentConfig;
-
 
 //-- Given - Reset
 given.noFunction = () => {
@@ -37,22 +35,20 @@ given.noConfig = () => {
 	config = undefined;
 };
 
-
 //-- Given
 given.rootDefined = () => {
-	root = path.join(__dirname, 'fixtures');
+	root = path.join(__dirname, "fixtures");
 };
 
 given.parentConfigDefined = () => {
 	parentConfig = {
-		tabWidth: 16
+		tabWidth: 16,
 	};
 };
 
-
 //-- When
 when.packageIsLoaded = () => {
-	myFunction = require(path.join(__dirname, '..', '..', 'dist', 'node'));  // eslint-disable-line node/global-require
+	myFunction = require(path.join(__dirname, "..", "..", "dist", "node")); // eslint-disable-line node/global-require
 };
 
 when.functionIsCalled = () => {
@@ -60,11 +56,10 @@ when.functionIsCalled = () => {
 		config = myFunction({
 			root,
 			filename,
-			parentConfig
+			parentConfig,
 		});
 	});
 };
-
 
 //-- Then
 then.defaultExportShouldBeAFunction = () => {
@@ -73,17 +68,16 @@ then.defaultExportShouldBeAFunction = () => {
 
 then.configShouldContainFileContent = () => {
 	expect(config).toContainEntries([
-		['lorem', 'ipsum'],
-		['tabWidth', 2]
+		["lorem", "ipsum"],
+		["tabWidth", 2],
 	]);
 };
 
 then.configShouldContainParentConfig = () => {
 	expect(config).toContainEntries([
-		['lorem', 'ipsum'],
-		['tabWidth', 16]
+		["lorem", "ipsum"],
+		["tabWidth", 16],
 	]);
 };
-
 
 export { given, when, then };

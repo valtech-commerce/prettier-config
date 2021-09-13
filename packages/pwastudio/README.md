@@ -1,9 +1,11 @@
 # @absolunet/prettier-config-pwastudio
 
-[![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-pwastudio.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-pwastudio)
-[![npm dependencies](https://david-dm.org/absolunet/prettier-config/status.svg?path=packages/pwastudio)](https://david-dm.org/absolunet/prettier-config?path=packages/pwastudio)
-[![npms](https://badges.npms.io/%40absolunet%2Fprettier-config-pwastudio.svg)](https://npms.io/search?q=%40absolunet%2Fprettier-config-pwastudio)
-[![tests](https://github.com/absolunet/prettier-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/prettier-config/actions?query=workflow%3Atests+branch%3Amaster)
+[![npm][npm-badge]][npm-url]
+[![npm dependencies][dependencies-badge]][dependencies-url]
+[![Tests][tests-badge]][tests-url]
+[![npms][npms-badge]][npms-url]
+[![License: MIT][license-badge]][license-url]
+
 
 > Prettier config - PWA Studio rules
 
@@ -39,11 +41,20 @@ module.exports = {
 View [documentation](https://documentation.absolunet.com/prettier-config/pwastudio)
 
 
-
-
-
-
-<br><br>
-
 ## License
-MIT © [Absolunet](https://absolunet.com)
+[MIT](LICENSE) © [Absolunet](https://absolunet.com)
+
+
+
+
+[npm-badge]:          https://img.shields.io/npm/v/@absolunet/prettier-config-pwastudio?style=flat-square
+[dependencies-badge]: https://img.shields.io/david/absolunet/prettier-config?path=packages/pwastudio&style=flat-square
+[tests-badge]:        https://img.shields.io/github/workflow/status/absolunet/prettier-config/tests/production?label=tests&style=flat-square
+[npms-badge]:         https://badges.npms.io/%40absolunet%2Fprettier-config-pwastudio.svg?style=flat-square
+[license-badge]:      https://img.shields.io/badge/license-MIT-green?style=flat-square
+
+[npm-url]:          https://www.npmjs.com/package/@absolunet/prettier-config-pwastudio
+[dependencies-url]: https://david-dm.org/absolunet/prettier-config?path=packages/pwastudio
+[tests-url]:        https://github.com/absolunet/prettier-config/actions?query=workflow%3Atests+branch%3Aproduction
+[npms-url]:         https://npms.io/search?q=%40absolunet%2Fprettier-config-pwastudio
+[license-url]:      https://opensource.org/licenses/MIT

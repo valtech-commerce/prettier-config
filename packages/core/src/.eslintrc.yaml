@@ -1,2 +1,6 @@
-extends:
-  - '@absolunet/node-package'
+extends: '@absolunet/node'
+
+
+# Parser Options
+parserOptions:
+  sourceType: module
