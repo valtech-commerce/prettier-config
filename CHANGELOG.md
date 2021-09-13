@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Update to Prettier 2.4.0
+- Rename `jsxBracketSameLine` to `bracketSameLine`
 - Manager and tester update
 
 
