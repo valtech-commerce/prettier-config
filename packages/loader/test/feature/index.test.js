@@ -1,11 +1,9 @@
 //--------------------------------------------------------
 //-- Loader - Feature tests
 //--------------------------------------------------------
-import { given, when, then } from './index.gwt';
-
+import { given, when, then } from "./index.gwt";
 
 describe(`Validate that loader works`, () => {
-
 	beforeEach(() => {
 		given.noException();
 		given.noFunction();
@@ -14,7 +12,6 @@ describe(`Validate that loader works`, () => {
 		given.noParentConfig();
 		given.noConfig();
 	});
-
 
 	test(`Ensure default export is a function`, () => {
 		when.packageIsLoaded();
@@ -41,5 +38,4 @@ describe(`Validate that loader works`, () => {
 		when.functionIsCalled();
 		then.configShouldContainParentConfig();
 	});
-
 });
