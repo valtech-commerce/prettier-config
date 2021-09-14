@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/prettier-config-pwastudio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Prettier config - PWA Studio rules",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
@@ -37,7 +37,7 @@
     "@absolunet/tester": "5.0.0-beta.1"
   },
   "dependencies": {
-    "@absolunet/prettier-config-core": "0.1.0",
-    "@absolunet/prettier-loader": "0.1.0"
+    "@absolunet/prettier-config-core": "0.2.0",
+    "@absolunet/prettier-loader": "0.2.0"
   }
 }
