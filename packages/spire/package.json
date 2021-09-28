@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/prettier-config-spire",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Prettier config - Spire rules",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
@@ -34,10 +34,10 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "5.0.0-beta.1"
+    "@absolunet/tester": "5.0.0-beta.5"
   },
   "dependencies": {
-    "@absolunet/prettier-config-core": "0.2.0",
-    "@absolunet/prettier-loader": "0.2.0"
+    "@absolunet/prettier-config-core": "0.2.1",
+    "@absolunet/prettier-loader": "0.2.1"
   }
 }

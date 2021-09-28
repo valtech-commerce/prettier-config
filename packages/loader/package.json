@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/prettier-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Prettier YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
@@ -35,7 +35,7 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "5.0.0-beta.1"
+    "@absolunet/tester": "5.0.0-beta.5"
   },
   "dependencies": {
     "@absolunet/fss": "^1.7.0",
