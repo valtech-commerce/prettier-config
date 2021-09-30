@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/prettier-loader",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Prettier YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
