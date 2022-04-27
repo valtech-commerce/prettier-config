@@ -16,19 +16,10 @@
 | [@absolunet/prettier-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-loader.svg)](https://www.npmjs.com/package/@absolunet/prettier-loader) | Config loader | [docs](https://documentation.absolunet.com/prettier-config/loader) |
 
 ### Dependency tree
-```
-                                 ┌────────────────┐
-                                 │      core      │
-                                 └────────────────┘
-                                          │
-                                          │
-                        ┌─────────────────┴─────────────────┐
-                        │                                   │
-                        │                                   │
-                        ▼                                   ▼
-               ┌────────────────┐                  ┌────────────────┐
-               │   pwastudio    │                  │      spire     │
-               └────────────────┘                  └────────────────┘
+```mermaid
+  graph TD;
+    A[core] --> B[pwastudio];
+    A[core] --> C[spire];
 ```
 
 

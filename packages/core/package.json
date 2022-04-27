@@ -35,12 +35,12 @@
   },
   "devDependencies": {
     "@absolunet/tester": "5.0.0-beta.5",
-    "prettier": "2.4.1"
+    "prettier": "2.6.2"
   },
   "dependencies": {
     "@absolunet/prettier-loader": "1.0.0"
   },
   "peerDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.6.2"
   }
 }
