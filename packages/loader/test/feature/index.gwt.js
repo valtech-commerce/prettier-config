@@ -43,6 +43,7 @@ given.rootDefined = () => {
 given.parentConfigDefined = () => {
 	parentConfig = {
 		tabWidth: 16,
+		printWidth: 20,
 	};
 };
 
@@ -76,7 +77,8 @@ then.configShouldContainFileContent = () => {
 then.configShouldContainParentConfig = () => {
 	expect(config).toContainEntries([
 		["lorem", "ipsum"],
-		["tabWidth", 16],
+		["tabWidth", 2],
+		["printWidth", 20],
 	]);
 };
 
