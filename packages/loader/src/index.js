@@ -23,5 +23,5 @@ module.exports = (options) => {
 
 	const shareableConfig = fss.readYaml(path.join(pkgDir.sync(options.root), options.filename));
 
-	return deepMerge(shareableConfig, options.parentConfig);
+	return deepMerge(options.parentConfig, shareableConfig);
 };

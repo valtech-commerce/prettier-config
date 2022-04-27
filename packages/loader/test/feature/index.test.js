@@ -31,7 +31,7 @@ describe(`Validate that loader works`, () => {
 		then.configShouldContainFileContent();
 	});
 
-	test(`Ensure parent config overwrites file content`, () => {
+	test(`Ensure config contains parent config and conflicting entries are overwritten`, () => {
 		given.rootDefined();
 		given.parentConfigDefined();
 		when.packageIsLoaded();

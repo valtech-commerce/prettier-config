@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/prettier-config-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prettier config - Core rules",
   "definition": "",
   "homepage": "https://github.com/absolunet/prettier-config",
@@ -35,12 +35,12 @@
   },
   "devDependencies": {
     "@absolunet/tester": "5.0.0-beta.5",
-    "prettier": "2.4.1"
+    "prettier": "2.6.2"
   },
   "dependencies": {
-    "@absolunet/prettier-loader": "1.0.0"
+    "@absolunet/prettier-loader": "1.0.1"
   },
   "peerDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.6.2"
   }
 }
