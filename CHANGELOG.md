@@ -56,9 +56,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/absolunet/prettier-config/compare/1.0.1...HEAD
-[1.0.1]:      https://github.com/absolunet/prettier-config/compare/1.0.0...1.0.1
-[1.0.0]:      https://github.com/absolunet/prettier-config/compare/0.2.1...1.0.0
-[0.2.1]:      https://github.com/absolunet/prettier-config/compare/0.2.0...0.2.1
-[0.2.0]:      https://github.com/absolunet/prettier-config/compare/0.1.0...0.2.0
-[0.1.0]:      https://github.com/absolunet/prettier-config/releases/tag/0.1.0
+[Unreleased]: https://github.com/valtech-commerce/prettier-config/compare/1.0.1...HEAD
+[1.0.1]:      https://github.com/valtech-commerce/prettier-config/compare/1.0.0...1.0.1
+[1.0.0]:      https://github.com/valtech-commerce/prettier-config/compare/0.2.1...1.0.0
+[0.2.1]:      https://github.com/valtech-commerce/prettier-config/compare/0.2.0...0.2.1
+[0.2.0]:      https://github.com/valtech-commerce/prettier-config/compare/0.1.0...0.2.0
+[0.1.0]:      https://github.com/valtech-commerce/prettier-config/releases/tag/0.1.0

@@ -9,11 +9,11 @@
 
 | Package | Version | Description | Documentation |
 |---|---|---|---|
-| **[@absolunet/prettier-config-core](packages/core)** | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-core.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-core) | **Core rules** | [docs](https://documentation.absolunet.com/prettier-config/core) |
-| [@absolunet/prettier-config-pwastudio](packages/pwastudio) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-pwastudio.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-pwastudio) | [PWA Studio](https://github.com/magento/pwa-studio) rules | [docs](https://documentation.absolunet.com/prettier-config/pwastudio) |
-| [@absolunet/prettier-config-spire](packages/spire) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-config-spire.svg)](https://www.npmjs.com/package/@absolunet/prettier-config-spire) | [Spire](https://www.episerver.com/products/b2b-commerce-cloud) rules | [docs](https://documentation.absolunet.com/prettier-config/spire) |
+| **[@valtech-commerce/prettier-config-core](packages/core)** | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-core.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-core) | **Core rules** | [docs](https://valtech-commerce.github.io/prettier-config/core) |
+| [@valtech-commerce/prettier-config-pwastudio](packages/pwastudio) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-pwastudio.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-pwastudio) | [PWA Studio](https://github.com/magento/pwa-studio) rules | [docs](https://valtech-commerce.github.io/prettier-config/pwastudio) |
+| [@valtech-commerce/prettier-config-spire](packages/spire) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-spire.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-spire) | [Spire](https://www.episerver.com/products/b2b-commerce-cloud) rules | [docs](https://valtech-commerce.github.io/prettier-config/spire) |
 |-|-|-|-|
-| [@absolunet/prettier-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@absolunet/prettier-loader.svg)](https://www.npmjs.com/package/@absolunet/prettier-loader) | Config loader | [docs](https://documentation.absolunet.com/prettier-config/loader) |
+| [@valtech-commerce/prettier-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-loader.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-loader) | Config loader | [docs](https://valtech-commerce.github.io/prettier-config/loader) |
 
 ### Dependency tree
 ```mermaid
@@ -26,7 +26,7 @@
 ## Install
 
 ```
-$ npm install @absolunet/prettier-config-[RULESET]
+$ npm install @valtech-commerce/prettier-config-[RULESET]
 ```
 
 
@@ -36,20 +36,20 @@ Add some Prettier config to your `.prettierrc.cjs`:
 
 ```js
 module.exports = {
-  ...require("@absolunet/prettier-config-[RULESET]")
+  ...require("@valtech-commerce/prettier-config-[RULESET]")
 };
 ```
 
 
 ## Related
 
-- [@absolunet/eslint-config](https://github.com/absolunet/eslint-config) - ESLint shareable config.
-- [@absolunet/stylelint-config](https://github.com/absolunet/stylelint-config) - stylelint extendable config.
+- [@valtech-commerce/eslint-config](https://github.com/valtech-commerce/eslint-config) - ESLint shareable config.
+- [@valtech-commerce/stylelint-config](https://github.com/valtech-commerce/stylelint-config) - stylelint extendable config.
 
 
 # Documentation
 
-See the [full documentation](https://documentation.absolunet.com/prettier-config) for an in-depth look.
+See the [full documentation](https://valtech-commerce.github.io/prettier-config) for an in-depth look.
 
 See the [Changelog](CHANGELOG.md) to see what has changed.
 
@@ -68,13 +68,13 @@ By interacting with this repository, organization, or community you agree to abi
 
 ## License
 
-[MIT](LICENSE) © [Absolunet](https://absolunet.com)
+[MIT](LICENSE) © [Valtech Canada inc.](https://www.valtech.ca/)
 
 
 
 
-[tests-badge]: https://github.com/absolunet/prettier-config/workflows/tests/badge.svg?branch=production
+[tests-badge]: https://github.com/valtech-commerce/prettier-config/workflows/tests/badge.svg?branch=main
 [lerna-badge]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
 
-[tests-url]: https://github.com/absolunet/prettier-config/actions?query=workflow%3Atests+branch%3Aproduction
+[tests-url]: https://github.com/valtech-commerce/prettier-config/actions?query=workflow%3Atests+branch%main
 [lerna-url]: https://lernajs.io/
