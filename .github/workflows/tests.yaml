@@ -9,18 +9,17 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
-        node_version:
-          - 14
-          - 12
-    name: 'Node ${{ matrix.node_version }} - on ${{ matrix.os }}'
+        node:
+          - latest
+          - 18
+          - 16
+    name: 'Node ${{ matrix.node }} on ${{ matrix.os }}'
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup node
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
+          node-version: '${{ matrix.node }}'
           check-latest: true
-          node-version: '${{ matrix.node_version }}'
+          cache: 'npm'
       - run: npm ci
-      - run: 'npm run manager:build'
       - run: npm test

@@ -1,9 +1,0 @@
-# Reset to Prettier default values
-useTabs: false
-
-# Spire options
-tabWidth: 4
-trailingComma: 'all'
-arrowParens: 'avoid'
-
-endOfLine: 'auto'

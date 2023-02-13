@@ -1,8 +1,0 @@
-# Reset to Prettier default values
-printWidth: 80
-useTabs: false
-
-# PWA Studio options
-tabWidth: 4
-singleQuote: true
-trailingComma: 'none'

@@ -1,7 +1,8 @@
 //--------------------------------------------------------
-//-- Package - Given-When-Then
+//-- Standards - Given-When-Then
 //--------------------------------------------------------
-import fss from "@absolunet/fss";
+import path from "node:path";
+import { fsSync } from "@valtech-commerce/fs";
 import * as gwt from "../base.gwt";
 
 const given = { ...gwt.given };
@@ -21,24 +22,28 @@ given.noPackage = () => {
 };
 
 //-- Given - Root
-given.root = (value) => {
-	root = value;
+given.root = () => {
+	root = path.join(__dirname, "..", "..");
 };
 
 //-- When - Package
 when.packageIsParsed = () => {
-	packageConfig = fss.readJson(`${root}/package.json`);
+	packageConfig = fsSync.readJson(path.join(root, "package.json"));
 };
 
 //-- Then - Config
 then.packageNameShouldBeValid = () => {
-	expect(packageConfig.name).toMatch(
-		/^@valtech-commerce\/prettier-config-(?<kebab1>[a-z][a-z0-9]*)(?<kebab2>-[a-z0-9]+)*$/u
-	);
+	expect(packageConfig.name).toMatch(/^@valtech-commerce\/.+$/u);
 };
 
 then.packageKeywordsShouldBeValid = () => {
 	expect(packageConfig.keywords).toIncludeAllMembers(["prettier", "prettierconfig", "prettier-config"]);
+};
+
+then.packageExportsShouldExist = () => {
+	Object.values(packageConfig.exports).forEach((file) => {
+		expect(fsSync.exists(path.join(root, file))).toBeTrue();
+	});
 };
 
 export { given, when, then };

@@ -1,34 +1,34 @@
 # Prettier config
-[![Tests][tests-badge]][tests-url]
-[![Lerna][lerna-badge]][lerna-url]
 
+[![npm][npm-badge]][npm-url]
+[![npms.io: Score][npmsio-badge]][npmsio-url]
+[![libraries.io: SourceRank][librariesio-badge]][librariesio-url]
+[![Tests][tests-badge]][tests-url]
+[![License: MIT][license-badge]][license-url]
 
 > Opinionated Prettier [shareable configs](https://prettier.io/docs/en/configuration.html#sharing-configurations).
 
 ## Rulesets
 
-| Package | Version | Description | Documentation |
-|---|---|---|---|
-| **[@valtech-commerce/prettier-config-core](packages/core)** | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-core.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-core) | **Core rules** | [docs](https://valtech-commerce.github.io/prettier-config/core) |
-| [@valtech-commerce/prettier-config-pwastudio](packages/pwastudio) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-pwastudio.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-pwastudio) | [PWA Studio](https://github.com/magento/pwa-studio) rules | [docs](https://valtech-commerce.github.io/prettier-config/pwastudio) |
-| [@valtech-commerce/prettier-config-spire](packages/spire) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-config-spire.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-config-spire) | [Spire](https://www.episerver.com/products/b2b-commerce-cloud) rules | [docs](https://valtech-commerce.github.io/prettier-config/spire) |
-|-|-|-|-|
-| [@valtech-commerce/prettier-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@valtech-commerce/prettier-loader.svg)](https://www.npmjs.com/package/@valtech-commerce/prettier-loader) | Config loader | [docs](https://valtech-commerce.github.io/prettier-config/loader) |
+| Ruleset                                      | Description                                                                      |
+| -------------------------------------------- | -------------------------------------------------------------------------------- |
+| **[core](shareable-config/core.yaml)**       | **Core rules**                                                                   |
+| [pwastudio](shareable-config/pwastudio.yaml) | [PWA Studio](https://pwastudio.io) rules                                         |
+| [spire](shareable-config/spire.yaml)         | [Spire](https://www.optimizely.com/products/monetize/configured-commerce/) rules |
 
 ### Dependency tree
+
 ```mermaid
   graph TD;
     A[core] --> B[pwastudio];
     A[core] --> C[spire];
 ```
 
-
 ## Install
 
 ```
-$ npm install @valtech-commerce/prettier-config-[RULESET]
+$ npm install @valtech-commerce/prettier-config
 ```
-
 
 ## Usage
 
@@ -36,23 +36,13 @@ Add some Prettier config to your `.prettierrc.cjs`:
 
 ```js
 module.exports = {
-  ...require("@valtech-commerce/prettier-config-[RULESET]")
+	...require("@valtech-commerce/prettier-config/[RULESET]"),
 };
 ```
 
-
-## Related
-
-- [@valtech-commerce/eslint-config](https://github.com/valtech-commerce/eslint-config) - ESLint shareable config.
-- [@valtech-commerce/stylelint-config](https://github.com/valtech-commerce/stylelint-config) - stylelint extendable config.
-
-
-# Documentation
-
-See the [full documentation](https://valtech-commerce.github.io/prettier-config) for an in-depth look.
+## Documentation
 
 See the [Changelog](CHANGELOG.md) to see what has changed.
-
 
 ## Contribute
 
@@ -65,16 +55,17 @@ See the [Security Policy](SECURITY.md) for sharing vulnerability reports.
 This project has a [Code of Conduct](CODE_OF_CONDUCT.md).
 By interacting with this repository, organization, or community you agree to abide by its terms.
 
-
 ## License
 
 [MIT](LICENSE) © [Valtech Canada inc.](https://www.valtech.ca/)
 
-
-
-
-[tests-badge]: https://github.com/valtech-commerce/prettier-config/workflows/tests/badge.svg?branch=main
-[lerna-badge]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
-
-[tests-url]: https://github.com/valtech-commerce/prettier-config/actions?query=workflow%3Atests+branch%main
-[lerna-url]: https://lernajs.io/
+[npm-badge]: https://img.shields.io/npm/v/@valtech-commerce/prettier-config?style=flat-square
+[npmsio-badge]: https://img.shields.io/npms-io/final-score/@valtech-commerce/prettier-config?style=flat-square
+[librariesio-badge]: https://img.shields.io/librariesio/sourcerank/npm/@valtech-commerce/prettier-config?style=flat-square
+[tests-badge]: https://img.shields.io/github/actions/workflow/status/valtech-commerce/prettier-config/tests.yaml?style=flat-square&branch=main
+[license-badge]: https://img.shields.io/badge/license-MIT-green?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@valtech-commerce/prettier-config
+[npmsio-url]: https://npms.io/search?q=%40valtech-commerce%2Fprettier-config
+[librariesio-url]: https://libraries.io/npm/@valtech-commerce%2Fprettier-config
+[tests-url]: https://github.com/valtech-commerce/prettier-config/actions/workflows/tests.yaml?query=branch%3Amain
+[license-url]: https://opensource.org/licenses/MIT
