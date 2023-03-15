@@ -10,18 +10,15 @@
 
 ## Rulesets
 
-| Ruleset                                      | Description                                                                      |
-| -------------------------------------------- | -------------------------------------------------------------------------------- |
-| **[core](shareable-config/core.yaml)**       | **Core rules**                                                                   |
-| [pwastudio](shareable-config/pwastudio.yaml) | [PWA Studio](https://pwastudio.io) rules                                         |
-| [spire](shareable-config/spire.yaml)         | [Spire](https://www.optimizely.com/products/monetize/configured-commerce/) rules |
+| Ruleset                                | Description    |
+| -------------------------------------- | -------------- |
+| **[core](shareable-config/core.yaml)** | **Core rules** |
 
 ### Dependency tree
 
 ```mermaid
   graph TD;
-    A[core] --> B[pwastudio];
-    A[core] --> C[spire];
+    core;
 ```
 
 ## Install
