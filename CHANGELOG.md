@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [1.2.1] - 2023-03-21
 ### Fixed
 - Add `tabWidth`
 
@@ -75,7 +79,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/valtech-commerce/prettier-config/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/valtech-commerce/prettier-config/compare/1.2.1...HEAD
+[1.2.1]:      https://github.com/valtech-commerce/prettier-config/compare/1.2.0...1.2.1
 [1.2.0]:      https://github.com/valtech-commerce/prettier-config/compare/1.1.0...1.2.0
 [1.1.0]:      https://github.com/valtech-commerce/prettier-config/compare/1.0.1...1.1.0
 [1.0.1]:      https://github.com/valtech-commerce/prettier-config/compare/1.0.0...1.0.1
